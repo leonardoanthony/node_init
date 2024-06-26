@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Leonardo Anthony <leonardoanthony.dev@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/index.ts"
+  },
+  "devDependencies": {
+    "eslint": "7.21.0"
+  }
 }
